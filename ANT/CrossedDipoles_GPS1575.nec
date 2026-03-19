@@ -1,0 +1,15 @@
+CM 30/17-M dipoles:  open sleeve coupling
+CM FR 0 1 0 0 18.118 1	
+CE
+SY ArmLen=0.0455
+SY h=0.005
+SY TRLm=0.0475
+GW	1	21	0	-ArmLen	h	0	ArmLen	h	0.00025
+GW	2	21	-ArmLen	0	0	ArmLen	0	0	0.00025
+GE	0
+GN	-1
+EK
+EX	0	2	11	0	1	0	0
+TL	1	11	2	11	50	TRLm	0	0	0	0
+FR	0	0	0	0	1575	0
+EN
