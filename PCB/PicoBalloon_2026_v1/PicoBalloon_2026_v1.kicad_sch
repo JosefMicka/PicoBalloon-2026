@@ -1820,7 +1820,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "GP-02_GPS_module:GP-02"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6417,6 +6417,26 @@
 		)
 		(uuid "85340c1e-a8fd-4ac6-871e-808087afeff0")
 	)
+	(label "GPS_ANT"
+		(at 224.79 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "931bbcd9-3816-4ede-8136-947c9517e992")
+	)
+	(label "LORA_ANT"
+		(at 147.32 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fed72e5-4f5c-4f68-b466-3117bd1b5190")
+	)
 	(label "GPS_TX_SILENTn"
 		(at 102.87 121.92 90)
 		(effects
@@ -7056,6 +7076,71 @@
 			(project "PicoBalloon_2026_v1"
 				(path "/5830a2be-f2a8-4c09-97d5-19df3de68a31"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 24.13 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b327483-e8c0-4e4c-9e2e-7b4f4338aaa8")
+		(property "Reference" "J12"
+			(at 24.638 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 24.765 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c77f8f62-b4c3-40a6-b424-8df2d942c8dc")
+		)
+		(instances
+			(project ""
+				(path "/5830a2be-f2a8-4c09-97d5-19df3de68a31"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -9045,6 +9130,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 24.13 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72083c22-c106-4eed-8e38-08745cf33ea2")
+		(property "Reference" "J3"
+			(at 24.638 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 24.765 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 24.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 24.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af3db499-0559-4cde-8ecb-db9fed3059be")
+		)
+		(instances
+			(project "PicoBalloon_2026_v1"
+				(path "/5830a2be-f2a8-4c09-97d5-19df3de68a31"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 205.74 124.46 0)
 		(unit 1)
@@ -9570,74 +9720,6 @@
 			(project "PicoBalloon_2026_v1"
 				(path "/5830a2be-f2a8-4c09-97d5-19df3de68a31"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 24.13 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fc548fb-ede3-489d-a776-366873448423")
-		(property "Reference" "J3"
-			(at 24.765 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 24.765 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "863a3d96-153d-4f7b-bf21-d929dfd9c4d7")
-		)
-		(pin "2"
-			(uuid "49531b0a-ee64-4932-afac-4869893db1a9")
-		)
-		(instances
-			(project ""
-				(path "/5830a2be-f2a8-4c09-97d5-19df3de68a31"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11492,7 +11574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GP-02_GPS_module:GP-02"
 			(at 212.09 74.93 0)
 			(effects
 				(font
