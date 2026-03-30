@@ -2987,9 +2987,9 @@
 		)
 		(uuid "180c4c51-5465-42fa-a4ee-7b212b520529")
 	)
-	(text "Quarterwave transformer \n35 Ohm (25 Ohm to 50 Ohm)\nat 1575 MHz. L = 25 mm @ FR4 Er=4.4,\nOptions:\nA) Microstrip W = 2.62 mm, H=0.8mm.\nB) Microstrip W = 1.63 mm, H=0.5mm.\nC) Microstrip W = 1.96 mm, H=0.6mm."
+	(text "Quarterwave transformer \n35 Ohm (25 Ohm to 50 Ohm)\nat 1575 MHz. L = 25 mm @ FR4 Er=4.4,\nOptions:\nA) Microstrip W = 2.62 mm, H=0.8mm.\nB) Microstrip W = 1.63 mm, H=0.5mm.\nC) Microstrip W = 1.96 mm, H=0.6mm.\nC) GCPW W = 1.7 mm, G=0.3mm, H=0.6mm. L=27mm"
 		(exclude_from_sim no)
-		(at 229.87 44.958 0)
+		(at 229.87 44.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
