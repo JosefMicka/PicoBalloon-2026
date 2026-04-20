@@ -3,11 +3,11 @@ CM FR 0 1 0 0 868 1
 CE
 SY ArmLen=0.0435
 SY h=0.005
-SY ADist=0.0300
+SY ADist=0.0425
 SY TRLm=0.0475
 SY LenRefl=0.0855
 SY MonPoleLen=0.0855
-SY dArm=0.001
+SY dArm=0.0005
 GW	12	21	0	-ArmLen-dArm	ADist+h	0	ArmLen+dArm	ADist+h	0.00025
 GW	11	21	-ArmLen	0	ADist	ArmLen	0	ADist	0.00025
 GW	21	21	0	-LenRefl	0	0	0	0	0.00025
@@ -20,7 +20,6 @@ LD	4	11	11	11	50	0	0
 GN	-1
 EK
 EX	0	25	11	0	1	0	0
-
 TL	11	11	12	11	50	TRLm-h	0	0	0	0
 FR	0	0	0	0	868	0
 EN
