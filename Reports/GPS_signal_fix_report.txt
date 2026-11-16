@@ -1,0 +1,49 @@
+=== GPS Init Time Test ===
+Post-fix hold : 100 ms
+Off period    : 10000 ms, doubling each cycle
+Starting first cycle...
+
+[#1] GPS ON (off was 10 s)
+wait 10 s
+FIX 13846 ms | 7 sats | 17:56:45 | 48.972850,17.651929 | 263.6 m
+GPS OFF
+[#2] GPS ON (off was 20 s)
+wait 10 s
+FIX 11617 ms | 7 sats | 17:57:16 | 48.972846,17.651851 | 260.2 m
+GPS OFF
+[#3] GPS ON (off was 40 s)
+wait 10 s
+FIX 12368 ms | 5 sats | 17:58:08 | 48.972858,17.651927 | 265.2 m
+GPS OFF
+[#4] GPS ON (off was 80 s)
+wait 10 s
+FIX 15860 ms | 7 sats | 17:59:41 | 48.972721,17.651798 | 262.7 m
+GPS OFF
+[#5] GPS ON (off was 160 s)
+wait 10 s
+FIX 11905 ms | 6 sats | 18:02:30 | 48.972866,17.651906 | 266.2 m
+GPS OFF
+[#6] GPS ON (off was 320 s)
+wait 10 s
+wait 20 s
+FIX 22864 ms | 6 sats | 18:08:05 | 48.972785,17.651966 | 262.5 m
+GPS OFF
+[#7] GPS ON (off was 640 s)
+wait 10 s
+wait 20 s
+FIX 20228 ms | 5 sats | 18:18:50 | 48.972763,17.652116 | 262.6 m
+GPS OFF
+[#8] GPS ON (off was 1280 s)
+wait 10 s
+FIX 12646 ms | 6 sats | 18:39:53 | 48.972808,17.651910 | 264.5 m
+GPS OFF
+[#9] GPS ON (off was 2560 s)
+wait 10 s
+FIX 18016 ms | 6 sats | 19:21:50 | 48.972927,17.651809 | 257.0 m
+GPS OFF
+[#10] GPS ON (off was 3600 s)
+wait 10 s
+wait 20 s
+wait 30 s
+FIX 31504 ms | 5 sats | 20:20:58 | 48.972858,17.651895 | 263.9 m
+GPS OFF
